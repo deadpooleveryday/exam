@@ -1,0 +1,24 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: "Roboto";
+}
+.container {
+  width: 80vw;
+  max-width: 1200px;
+  padding: 0 20px 0 20px;
+}
+.bckgr {
+  background-color: #afc5ad;
+}
+hr {
+  height: 1px;
+  width: 341px;
+  position: absolute;
+  top: 760px;
+  left: 550px;
+  rotate: (90deg);
+  color: #ffffff;
+}

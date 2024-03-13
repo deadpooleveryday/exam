@@ -1,0 +1,210 @@
+.header {
+  padding-top: 45px;
+}
+.header__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+.header__disk {
+  margin-top: 132px;
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+}
+.header__subtitle {
+  font-size: 22px;
+  font-weight: 900;
+  letter-spacing: 45px;
+}
+.header__logo {
+  font-size: 264px;
+  font-weight: 700;
+  background: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0.2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: "Roboto";
+}
+
+.container {
+  width: 80vw;
+  max-width: 1200px;
+  padding: 0 20px 0 20px;
+}
+
+.bckgr {
+  background-color: #afc5ad;
+}
+
+hr {
+  height: 1px;
+  width: 341px;
+  position: absolute;
+  top: 760px;
+  left: 550px;
+  rotate: 90deg;
+  color: #ffffff;
+}
+
+.article {
+  background-image: url(../src/image/snow-leopard.png);
+  height: 964px;
+  width: 1446px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 26px;
+  position: relative;
+  margin-top: 120px;
+  box-shadow: 8px 8px 8px 1px rgba(116, 116, 116, 0.3);
+}
+
+.nav {
+  height: 100%;
+  max-height: 964px;
+  width: 100%;
+  max-width: 91px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.34) 0%, rgba(0, 0, 0, 0.87) 100%);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-position-x: left;
+  border-radius: 26px 0px 0px 26px;
+  padding-top: 130px;
+  justify-content: space-between;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+.nav__buttons {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.nav__arrow {
+  background-color: #2c2c2e;
+  height: 92px;
+  width: 92px;
+  cursor: pointer;
+}
+.nav__arrow:hover {
+  background-color: #24632e;
+  height: 92px;
+  width: 92px;
+  cursor: pointer;
+}
+.nav__page {
+  display: flex;
+}
+.nav__pagenum {
+  font: "Roboto Condensed";
+  font-size: 36px;
+  line-height: 41px;
+}
+.nav__pagenum_litle {
+  font: "Roboto Condensed";
+  font-size: 28px;
+  line-height: 41px;
+}
+.nav__burgermenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30px;
+  cursor: pointer;
+}
+.nav__burger::after {
+  content: "";
+  border: 1px solid #fff;
+  background-color: #fff;
+  position: absolute;
+  left: 35%;
+  height: 1px;
+  width: 25px;
+}
+.nav__burger_mid::after {
+  content: "";
+  border: 1px solid #fff;
+  background-color: #fff;
+  position: absolute;
+  left: 35%;
+  height: 1px;
+  width: 20px;
+  cursor: pointer;
+}
+
+.icon {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto Condensed";
+  font-weight: 300;
+}
+.info__wrapper {
+  width: 525px;
+  position: absolute;
+  right: 10%;
+}
+.info__area {
+  font-weight: 700;
+  font-size: 22px;
+}
+.info__area_title {
+  font-size: 22px;
+}
+.info____disk {
+  font-size: 17px;
+}
+.info__more {
+  font-size: 22px;
+  color: rgb(50, 215, 75);
+}
+.info__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 320px;
+}
+.info__options {
+  display: flex;
+}
+
+.h2 {
+  font-size: 32px;
+  color: rgb(255, 255, 255);
+  font-family: "Roboto Condensed";
+  font-weight: 300;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+.options__info {
+  font-size: 44px;
+  font-weight: 400;
+  font-family: "Roboto Condensed";
+}
+.options__options {
+  font-size: 22px;
+  opacity: 30%;
+  font-weight: 700;
+  font-family: "Roboto";
+}/*# sourceMappingURL=style.css.map */

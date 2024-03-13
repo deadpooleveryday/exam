@@ -1,0 +1,58 @@
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Roboto Condensed";
+  font-weight: 300;
+  &__wrapper {
+    width: 525px;
+    position: absolute;
+    right: 10%;
+  }
+  &__area {
+    font-weight: 700;
+    font-size: 22px;
+  }
+  &__area_title {
+    font-size: 22px;
+  }
+  &____disk {
+    font-size: 17px;
+  }
+  &__more {
+    font-size: 22px;
+    color: rgba(50, 215, 75, 1);
+  }
+  &__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 320px;
+  }
+  &__options {
+    display: flex;
+  }
+}
+.h2 {
+  font-size: 32px;
+  color: rgba(255, 255, 255, 1);
+  font-family: "Roboto Condensed";
+  font-weight: 300;
+}
+.options {
+  display: flex;
+  flex-direction: column;
+  &__info {
+    font-size: 44px;
+    font-weight: 400;
+    font-family: "Roboto Condensed";
+  }
+  &__options {
+    font-size: 22px;
+    opacity: 30%;
+    font-weight: 700;
+    font-family: "Roboto";
+  }
+}
